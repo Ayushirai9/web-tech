@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Date on Button Click</title>
+    <script>
+        function showDate() {
+            var today = new Date();
+            var dateString = today.toLocaleDateString();
+            document.getElementById("dateBtn").value = dateString;
+        }
+    </script>
+</head>
+<body>
+    <input type="button" id="dateBtn" value="Show Date" onclick="showDate()" />
+</body>
+</html>

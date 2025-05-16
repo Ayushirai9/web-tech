@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: #ddd;
+        }
+        .yellow { background-color: yellow; }
+        .blue { background-color: lightblue; }
+        .pink { background-color: pink; }
+        .green { background-color: lightgreen; }
+        .red { color: red; }
+    </style>
+</head>
+<body>
+
+    <table border="3">
+        <tr>
+            <th>DAY/TIME</th>
+            <th>09:10 AM - 10:00 AM</th>
+            <th>10:01 AM - 10:50 AM</th>
+            <th>10:51 AM - 11:40 AM</th>
+            <th>11:41 AM - 12:30 PM</th>
+            <th>12:31 PM - 01:10 PM</th>
+            <th>01:11 PM - 02:00 PM</th>
+            <th>02:01 PM - 02:50 PM</th>
+            <th>02:51 PM - 03:40 PM</th>
+            <th>03:41 PM - 04:30 PM</th>
+        </tr>
+        <tr>
+            <td>MONDAY</td>
+            <td class="yellow">(OS) BMC 203 (NKS)</td>
+            <td class="blue">(DBMS) BMC 204 (SK)</td>
+            <td>(OOPS) BMC 202 (GV)</td>
+            <td class="green">Sports & YOGA</td>
+            <td rowspan="6"><b>L<br><br>U<br><br>N<br><br>C<br><br>H</b></td>
+            <td style="background-color: orange;">(DSA) BMC 205 (SK)</td>
+            <td>(WT) BMC 201 (DK)</td>
+            <td colspan="2" class="pink">(OOPS LAB) BMC 252 (GV) + BMC 252 (BM)</td>
+        </tr>
+        <tr>
+            <td>TUESDAY</td>
+            <td colspan="2" class="red">Verbal</td>
+            <td colspan="2" class="red">Aptitude</td>
+            <td>(OOPS) BMC 202 (GV)</td>
+            <td>(WT) BMC 201 (DK)</td>
+            <td colspan="2">(DBMS LAB) BMC 253 (NS)</td>
+        </tr>
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>(DSA) BMC 205 (SK)</td>
+            <td>(WT) BMC 201 (DK)</td>
+            <td colspan="2">(DSA LAB) (G1) BMC 254 (SK), (G2) BMC 254 (GV)</td>
+            <td>(OOPS) BMC 202 (GV)</td>
+            <td>(DBMS) BMC 204 (NS)</td>
+            <td colspan="2">ECA/YOGA</td>
+        </tr>
+        <tr>
+            <td>THURSDAY</td>
+            <td>(DBMS) BMC 204 (NS)</td>
+            <td>(DSA) BMC 205 (SK)</td>
+            <td colspan="2">(DBMS LAB) (G1) BMC 254 (SK), (G2) BMC 254 (GV)</td>
+            <td>(WT LAB) (G1) BMC 251 (DK) + (G2) BMC 251 (SK)</td>
+            <td>(WT) BMC 201 (DK)</td>
+            <td>(OS) BMC 203 (NKS)</td>
+            <td>(OOPS) BMC 202 (GV)</td>
+        </tr>
+        <tr>
+            <td>FRIDAY</td>
+            <td colspan="2" class="green">TECHNICAL</td>
+            <td>(DBMS) BMC 204 (NS)</td>
+            <td>(OS) BMC 203 (NKS)</td>
+            <td>(WT) BMC 201 (DK)</td>
+            <td>(DSA) BMC 205 (SK)</td>
+            <td colspan="2">(WT LAB)</td>
+        </tr>
+        <tr>
+            <td>SATURDAY</td>
+            <td colspan="2" class="green">TECHNICAL</td>
+            <td>Slow Learner</td>
+            <td>Slow Learner</td>
+            <td>Slow Learner</td>
+            <td>Slow Learner</td>
+            <td colspan="2">Slow Learner</td>
+        </tr>
+    </table>
+
+</body>
+</html>
